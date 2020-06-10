@@ -3,9 +3,9 @@ var elevation = dataset.select('elevation');
 Map.addLayer(elevation,{min: -444, max: 8000}, 'elevation');
 
 /*Centring the map to my study area location and setting up the zoom level */
-Map.setCenter(-78.895419, 0.022938,10);
+Map.setCenter(33.838709,  11.684519,);
 
-/*Drawing a rectangle around my study area */
+/*Drawing a rectangle around my study area LONG LAT */
 var studyArea = ee.Geometry.Rectangle([33.838709,  11.684519, 40.376964, 6.374880]);
 /*Actually drawing the layer in the map*/
 Map.addLayer(studyArea, {color:"red"}, "studyArea")
