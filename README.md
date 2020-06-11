@@ -1,2 +1,2 @@
-# Google-Earth-Engine_Project
-Regional Analysis using Google Earth Engine: environmental analyses and data extraction
+# Regional analysis usings Google Earth Engine
+Environmental analyses, time series and data extraction.
